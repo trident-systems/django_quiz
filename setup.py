@@ -6,7 +6,7 @@ setup(
     name='django-quiz-app',
     version='0.5.0',
     packages=['quiz', 'multichoice', 'true_false', 'essay', 'quiz.templatetags',
-              'multichoice.migrations'],
+              'quiz.migrations', 'multichoice.migrations'],
     include_package_data=True,
     license='MIT License',
     description='A configurable quiz app for Django.',
